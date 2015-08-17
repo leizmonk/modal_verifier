@@ -1,0 +1,21 @@
+.age-popup {
+  background-color: #000;
+  border-radius: 5px;
+  border: 1px solid #bf441d;
+  clear: both;
+  display: none;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 20%;
+  padding-top: 40px;
+  position: relative;
+  width: 300px;
+  z-index: 1000;
+}
+
+#age-popup-overlay {
+  background-color: rgba(0,0,0,0.85);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
