@@ -1,6 +1,6 @@
 (function($){
   $(document).ready(function(){
-    var cookie = Cookies.get('bn-visit');
+    var cookie = Cookies.get('visit');
 
     // Get screen height and width for popup overlay
     var docHeight = $(document).height();
@@ -11,7 +11,7 @@
     // If cookie is not present, set it, then show popup age checker
     if (cookie == null) {
       // Create a cookie to log user visit
-      Cookies.set('bn-visit', 'visited', { expires: 60 });
+      Cookies.set('visit', 'visited', { expires: 60 });
 
       // Set popup overlay height
       $('#age-popup-overlay').css('height', docHeight);
